@@ -22,12 +22,4 @@ I am currently a Master’s student at Nanyang Normal University, working in the
 
 </div>
 
----
 
-<div align="center">
-
-Open to research discussions and collaboration.
-
-![Profile views](https://komarev.com/ghpvc/?username=shilongWang1107&style=flat-square&color=2563EB)
-
-</div>
