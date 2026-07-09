@@ -17,9 +17,9 @@ I am currently a Master’s student at Nanyang Normal University, working in the
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=shilongWang1107&show_icons=true&hide_border=true&theme=transparent" alt="Shilong Wang's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shilongWang1107&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shilongWang1107&theme=transparent" alt="Shilong Wang's GitHub activity summary" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shilongWang1107&theme=transparent" alt="Shilong Wang's GitHub stats" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shilongWang1107&theme=transparent" alt="Most used languages" />
 
 </div>
-
 
