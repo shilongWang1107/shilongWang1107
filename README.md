@@ -9,7 +9,8 @@
 </div>
 
 
-I am currently a Master’s student at Nanyang Normal University, working in the research group led by Xin Huang(黄鑫). My research focuses on Multimodal Analysis and Understanding and Few-shot Incremental Learning. To date, I have published three papers in leading international conferences and journals, including AAAI Conference on Artificial Intelligence, ACM Transactions on Multimedia Computing, Communications, and Applications, and IEEE International Conference on Acoustics, Speech, and Signal Processing. I have also served as a reviewer for several prominent venues, such as ICME, ICASSP, and AIES-SP.
+I am currently a Ph.D. student in Computer Science and Technology at Yunnan University, under the supervision of Professor Wenwen Min (闵文文) My research interests include spatial transcriptomics, cross-modal analysis, few-shot incremental learning, and medical image processing. To date, I have published multiple papers in leading international conferences and journals, including AAAI, ACM TOMM, and ICASSP. I have also served as a reviewer for ICME, ICASSP, and AIES-SP.
+
 
 
 
