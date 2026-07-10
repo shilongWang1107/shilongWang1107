@@ -17,7 +17,6 @@ I am currently a Master’s student at Nanyang Normal University, working in the
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shilongWang1107&theme=transparent" alt="Shilong Wang's GitHub activity summary" />
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shilongWang1107&theme=transparent" alt="Shilong Wang's GitHub stats" />
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shilongWang1107&theme=transparent" alt="Most used languages" />
 
