@@ -18,8 +18,7 @@ I am currently a Ph.D. student in Computer Science and Technology at Yunnan Univ
 
 <div align="center">
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shilongWang1107&theme=transparent" alt="Shilong Wang's GitHub stats" />
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shilongWang1107&theme=transparent" alt="Most used languages" />
+<img height="165" src="./assets/github-activity.svg" alt="Shilong Wang's GitHub activity" />
+<img height="165" src="./assets/top-languages.svg" alt="Most used languages" />
 
 </div>
-
