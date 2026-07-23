@@ -30,7 +30,7 @@ I am a Ph.D. student in **Computer Science and Technology at Yunnan University**
 </p>
 <p align="center">
   <a href="https://github.com/shilongWang1107"><img height="22" src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
-  <img height="22" src="https://komarev.com/ghpvc/?username=shilongWang1107&amp;label=PROFILE%20VIEWS&amp;color=6D28D9&amp;style=flat-square&amp;abbreviated=true" alt="Profile views" />
+  <img height="22" src="https://komarev.com/ghpvc/?username=shilongWang1107&amp;label=PROFILE%20VIEWS&amp;color=6D28D9&amp;style=for-the-badge&amp;abbreviated=true" alt="Profile views" />
 </p>
 
 ---
