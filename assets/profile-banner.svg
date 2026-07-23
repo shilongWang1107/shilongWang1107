@@ -1,59 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
-  <title id="title">Shilong Wang — Researcher and Developer</title>
-  <desc id="desc">A purple and blue profile banner inspired by spatial omics, artificial intelligence, and medical imaging.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">WELCOME — interactive particle banner</title>
+  <desc id="desc">A field of luminous particles forming the word WELCOME. Particles drift continuously and react when the SVG is opened directly and hovered.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#170c3a"/>
-      <stop offset=".48" stop-color="#5b21b6"/>
-      <stop offset="1" stop-color="#0e7490"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset=".52" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#10192d"/>
     </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#f0abfc" stop-opacity=".85"/>
-      <stop offset=".45" stop-color="#a855f7" stop-opacity=".25"/>
-      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity=".22"/>
+      <stop offset=".55" stop-color="#8b5cf6" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#05070d" stop-opacity="0"/>
     </radialGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#60a5fa" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="particles" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r="1.4" fill="#f8fafc"/>
+      <circle cx="9" cy="7" r="1.8" fill="#93c5fd"/>
+      <circle cx="5" cy="12" r="1.1" fill="#67e8f9"/>
+      <circle cx="13" cy="1" r=".9" fill="#c4b5fd"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="scatter" x="-25%" y="-35%" width="150%" height="170%">
+      <feTurbulence type="fractalNoise" baseFrequency=".008 .035" numOctaves="2" seed="17" result="noise">
+        <animate attributeName="baseFrequency" values=".008 .035;.018 .055;.008 .035" dur="2.8s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="12" xChannelSelector="R" yChannelSelector="B"/>
+    </filter>
   </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .grid { stroke: #94a3b8; stroke-width: .55; opacity: .08; }
+    .word {
+      transform-origin: 500px 150px;
+      transition: transform .55s ease, letter-spacing .55s ease, opacity .4s ease;
+      animation: breathe 4.8s ease-in-out infinite;
+    }
+    .echo { opacity: .2; animation: echo 4.8s ease-in-out infinite; }
+    .orb { transform-box: fill-box; transform-origin: center; animation: orbit 5s ease-in-out infinite alternate; }
+    .orb:nth-of-type(2n) { animation-duration: 3.8s; animation-delay: -.9s; }
+    .orb:nth-of-type(3n) { animation-duration: 6.2s; animation-delay: -2s; }
+    .spark { animation: sparkle 2.4s ease-in-out infinite; transform-origin: center; }
+    svg:hover .word { transform: scale(1.035); letter-spacing: 13px; filter: url(#scatter) url(#glow); }
+    svg:hover .echo { opacity: .42; transform: translateY(4px) scale(1.02); }
+    svg:hover .orb { animation-duration: .75s; opacity: 1; }
+    @keyframes breathe { 0%,100% { opacity:.88; } 50% { opacity:1; filter:url(#glow); } }
+    @keyframes echo { 0%,100% { transform:translateY(0); } 50% { transform:translateY(2px); } }
+    @keyframes orbit { from { transform:translate(-5px,-3px); opacity:.35; } to { transform:translate(7px,5px); opacity:.95; } }
+    @keyframes sparkle { 0%,100% { opacity:.25; transform:scale(.75) rotate(0deg); } 50% { opacity:1; transform:scale(1.25) rotate(45deg); } }
+    @media (prefers-reduced-motion: reduce) { .word,.echo,.orb,.spark { animation:none; } }
+  </style>
 
-  <rect width="1000" height="260" rx="18" fill="url(#bg)"/>
-  <circle cx="500" cy="15" r="260" fill="url(#glow)" opacity=".72"/>
-  <circle cx="120" cy="220" r="110" fill="#22d3ee" opacity=".09" filter="url(#soft)"/>
-  <circle cx="900" cy="35" r="95" fill="#f472b6" opacity=".11" filter="url(#soft)"/>
+  <rect width="1000" height="300" rx="18" fill="url(#background)"/>
+  <ellipse cx="500" cy="148" rx="420" ry="190" fill="url(#halo)"/>
+  <g class="grid">
+    <path d="M40 60H960M40 110H960M40 160H960M40 210H960M40 260H960"/>
+    <path d="M80 30V270M180 30V270M280 30V270M380 30V270M480 30V270M580 30V270M680 30V270M780 30V270M880 30V270"/>
+  </g>
+  <g fill="none" stroke="#64748b" stroke-width="1.3" opacity=".48">
+    <path d="M34 55V28h27M939 28h27v27M34 245v27h27M939 272h27v-27"/>
+  </g>
+  <line x1="140" y1="234" x2="860" y2="234" stroke="url(#line)"/>
 
-  <g opacity=".38" fill="none" stroke="#e9d5ff" stroke-width="1.5">
-    <path d="M43 68 C105 18 155 118 217 68 S329 118 390 68"/>
-    <path d="M610 193 C671 143 722 243 783 193 S895 243 957 193"/>
-    <path d="M76 180 L128 150 L180 180 L232 150"/>
-    <path d="M768 71 L820 41 L872 71 L924 41"/>
+  <g class="echo" filter="url(#scatter)">
+    <text x="500" y="184" text-anchor="middle" font-size="112" font-weight="900" letter-spacing="8" fill="url(#particles)">WELCOME</text>
+  </g>
+  <g class="word" filter="url(#glow)">
+    <text x="500" y="178" text-anchor="middle" font-size="112" font-weight="900" letter-spacing="8" fill="url(#particles)" stroke="#dbeafe" stroke-width=".35">WELCOME</text>
   </g>
 
-  <g fill="#fff">
-    <g opacity=".28">
-      <circle cx="69" cy="45" r="3"/><circle cx="156" cy="34" r="2"/><circle cx="239" cy="97" r="3"/>
-      <circle cx="768" cy="38" r="3"/><circle cx="905" cy="91" r="2"/><circle cx="947" cy="145" r="3"/>
-      <circle cx="317" cy="214" r="2"/><circle cx="689" cy="224" r="2"/>
-    </g>
-    <circle cx="500" cy="56" r="31" fill="#ffffff" fill-opacity=".13" stroke="#ffffff" stroke-opacity=".7" stroke-width="2"/>
-    <text x="500" y="65" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="25" font-weight="750">SW</text>
-    <text x="500" y="129" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="39" font-weight="800" letter-spacing="2">HELLO, I'M SHILONG</text>
-    <text x="500" y="158" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="550" letter-spacing="3" opacity=".82">COMPUTATIONAL BIOLOGY · MEDICAL AI</text>
+  <g>
+    <circle class="orb" cx="101" cy="91" r="2.4" fill="#67e8f9"/>
+    <circle class="orb" cx="152" cy="201" r="1.8" fill="#a78bfa"/>
+    <circle class="orb" cx="227" cy="72" r="2.1" fill="#f8fafc"/>
+    <circle class="orb" cx="286" cy="235" r="2.6" fill="#60a5fa"/>
+    <circle class="orb" cx="355" cy="57" r="1.7" fill="#67e8f9"/>
+    <circle class="orb" cx="430" cy="247" r="2.1" fill="#c4b5fd"/>
+    <circle class="orb" cx="552" cy="49" r="2.5" fill="#93c5fd"/>
+    <circle class="orb" cx="618" cy="248" r="1.9" fill="#f8fafc"/>
+    <circle class="orb" cx="711" cy="67" r="2.3" fill="#a78bfa"/>
+    <circle class="orb" cx="787" cy="228" r="2.7" fill="#67e8f9"/>
+    <circle class="orb" cx="867" cy="91" r="1.8" fill="#f8fafc"/>
+    <circle class="orb" cx="924" cy="198" r="2.2" fill="#60a5fa"/>
   </g>
-
-  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#f5f3ff" opacity=".92">
-    <g transform="translate(58 214)">
-      <circle cx="0" cy="-4" r="9" fill="none" stroke="#fff" stroke-width="1.5"/>
-      <path d="M-4-4h8M0-8c3 3 3 5 0 8M0-8c-3 3-3 5 0 8" fill="none" stroke="#fff" stroke-width="1"/>
-      <text x="18" y="0">shilongWang1107.github.io</text>
-    </g>
-    <g transform="translate(774 214)">
-      <circle cx="9" cy="-5" r="9" fill="none" stroke="#fff" stroke-width="1.5"/>
-      <path d="M5-1c-1 2 1 3 4 3s5-1 4-3c3-1 4-4 2-7 0-2-1-3-2-4-1 0-2 1-3 1H8c-1 0-2-1-3-1-1 1-2 2-2 4-2 3-1 6 2 7z" fill="none" stroke="#fff" stroke-width="1"/>
-      <text x="29" y="0">github.com/shilongWang1107</text>
-    </g>
+  <g class="spark" fill="#93c5fd">
+    <path d="M886 75l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/>
   </g>
-
-  <g opacity=".52" fill="none" stroke="#f5d0fe" stroke-width="2">
-    <path d="M47 235h75l18-18h57"/>
-    <path d="M803 217h57l18 18h75"/>
+  <g class="spark" fill="#c4b5fd" style="animation-delay:-1.1s">
+    <path d="M118 214l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>
+  </g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" text-anchor="middle">
+    <text x="500" y="226" font-size="10" letter-spacing="4" fill="#94a3b8">COMPUTATIONAL BIOLOGY · MEDICAL AI</text>
+    <text x="500" y="258" font-size="9" letter-spacing="2.5" fill="#64748b">PARTICLES IN MOTION · IDEAS IN PROGRESS</text>
   </g>
 </svg>
