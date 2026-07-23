@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Shilong Wang — Computational Biology and Medical AI" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="WELCOME — interactive particle banner" />
 </div>
 
 <br />
 
-<img align="right" src="./assets/research-visual.svg" width="310" alt="Spatial omics and medical AI illustration" />
-
 ## 👋 About Me
+
+<img align="right" src="./assets/cartoon-dragon-fireworks-optimized.png" width="270" alt="Cartoon dragon celebrating with fireworks" />
 
 *Ph.D. student · Computational biology researcher · AI developer*
 
