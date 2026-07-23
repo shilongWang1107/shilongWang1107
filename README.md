@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="WELCOME — interactive particle banner" />
+  <a href="https://raw.githubusercontent.com/shilongWang1107/shilongWang1107/main/assets/profile-banner.svg" title="Open the interactive particle view">
+    <img src="./assets/profile-banner.svg" width="100%" alt="WELCOME — interactive particle banner" />
+  </a>
 </div>
 
 <br />
