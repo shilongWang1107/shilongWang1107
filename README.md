@@ -10,13 +10,15 @@
 
 <img align="right" src="./assets/cartoon-dragon-fireworks-optimized.png" width="270" alt="Cartoon dragon celebrating with fireworks" />
 
-*Ph.D. student · Cross-modal researcher · AI enthusiast*
+*Ph.D. student · Computational biology researcher · AI developer*
 
-I am a Ph.D. student in **Computer Science and Technology at Yunnan University**, supervised by **Professor Wenwen Min (闵文文)**. My research interests include spatial transcriptomics, cross-modal analysis, few-shot incremental learning, and medical image processing.
+![Profile views](https://komarev.com/ghpvc/?username=shilongWang1107&label=PROFILE%20VIEWS&color=6D28D9&style=for-the-badge&abbreviated=true)
 
-- 🔗 Developing methods for cross-modal analysis
-- 🧬 Exploring cross-modal integration for spatial transcriptomics
-- 🧠 Studying few-shot class-incremental learning under limited data
+I am a Ph.D. student in **Computer Science and Technology at Yunnan University**, supervised by **Professor Wenwen Min (闵文文)**. My work sits at the intersection of artificial intelligence, spatial omics, and medical imaging—turning complex biological data into useful computational insight.
+
+- 🧬 Exploring **spatial transcriptomics** and cross-modal analysis
+- 🧠 Building methods for **few-shot incremental learning**
+- 🩻 Applying AI to **medical image processing**
 - 📝 Published at **AAAI, ACM TOMM, and ICASSP**
 - 🔎 Reviewer for **ICME, ICASSP, and AIES-SP**
 - 🌱 Always learning, collaborating, and contributing to meaningful research
