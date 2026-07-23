@@ -6,13 +6,11 @@
 
 <br />
 
-## 👋 About Me
+## 😎 I'M SHILONG!
 
 <img align="right" src="./assets/cartoon-dragon-fireworks-optimized.png" width="270" alt="Cartoon dragon celebrating with fireworks" />
 
 *Ph.D. student · Computational biology researcher · AI developer*
-
-![Profile views](https://komarev.com/ghpvc/?username=shilongWang1107&label=PROFILE%20VIEWS&color=6D28D9&style=for-the-badge&abbreviated=true)
 
 I am a Ph.D. student in **Computer Science and Technology at Yunnan University**, supervised by **Professor Wenwen Min (闵文文)**. My work sits at the intersection of artificial intelligence, spatial omics, and medical imaging—turning complex biological data into useful computational insight.
 
@@ -25,14 +23,15 @@ I am a Ph.D. student in **Computer Science and Technology at Yunnan University**
 
 <br clear="right" />
 
-<div align="center">
-
-[![Website](https://img.shields.io/badge/Website-Visit-6D28D9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shilongWang1107.github.io)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=zh-CN&user=6IzSOykAAAAJ)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-Research-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Shilong-Wang-24/research)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shilongWang1107)
-
-</div>
+<p align="center">
+  <a href="https://shilongWang1107.github.io"><img height="22" src="https://img.shields.io/badge/Website-Visit-6D28D9?style=flat-square&amp;logo=googlechrome&amp;logoColor=white" alt="Website" /></a>
+  <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=6IzSOykAAAAJ"><img height="22" src="https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&amp;logo=googlescholar&amp;logoColor=white" alt="Google Scholar" /></a>
+  <a href="https://www.researchgate.net/profile/Shilong-Wang-24/research"><img height="22" src="https://img.shields.io/badge/ResearchGate-Profile-00CCBB?style=flat-square&amp;logo=researchgate&amp;logoColor=white" alt="ResearchGate" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/shilongWang1107"><img height="22" src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub" /></a>
+  <img height="22" src="https://komarev.com/ghpvc/?username=shilongWang1107&amp;label=PROFILE%20VIEWS&amp;color=6D28D9&amp;style=flat-square&amp;abbreviated=true" alt="Profile views" />
+</p>
 
 ---
 
