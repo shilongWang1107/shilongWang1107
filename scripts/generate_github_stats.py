@@ -55,15 +55,21 @@ def svg_document(title: str, body: str, width: int = 410, height: int = 165) -> 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
   <title id="title">{safe_title}</title>
   <desc id="desc">Automatically generated from the official GitHub API.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#a855f7"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
   <style>
     text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
-    .title {{ fill: #f0f6fc; font-size: 16px; font-weight: 600; }}
-    .value {{ fill: #f0f6fc; font-size: 20px; font-weight: 650; }}
+    .title {{ fill: #f0f6fc; font-size: 16px; font-weight: 650; }}
+    .value {{ fill: #f0f6fc; font-size: 20px; font-weight: 700; }}
     .label {{ fill: #8b949e; font-size: 11px; }}
     .language {{ fill: #c9d1d9; font-size: 11px; }}
   </style>
-  <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="8" fill="#0d1117" stroke="#30363d"/>
-  <text x="18" y="27" class="title">{safe_title}</text>
+  <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="5" height="{height - 2}" rx="3" fill="url(#accent)"/>
+  <text x="22" y="27" class="title">{safe_title}</text>
 {body}
 </svg>
 '''
@@ -76,8 +82,11 @@ def activity_card(profile: dict, repositories: list[dict]) -> str:
         (sum(repo.get("forks_count", 0) for repo in repositories), "Total forks"),
         (profile.get("followers", 0), "Followers"),
     ]
-    positions = [(18, 61), (213, 61), (18, 118), (213, 118)]
-    body = []
+    positions = [(22, 61), (216, 61), (22, 118), (216, 118)]
+    body = [
+        '  <circle cx="384" cy="22" r="4" fill="#22d3ee" opacity=".9"/>',
+        '  <circle cx="370" cy="22" r="4" fill="#a855f7" opacity=".9"/>',
+    ]
     for (value, label), (x, y) in zip(values, positions):
         body.append(f'  <text x="{x}" y="{y}" class="value">{value:,}</text>')
         body.append(f'  <text x="{x}" y="{y + 18}" class="label">{html.escape(label)}</text>')
@@ -106,14 +115,14 @@ def languages_card(totals: dict[str, int]) -> str:
         y = 51 + index * 22
         percentage = byte_count / grand_total * 100
         color = COLORS[index % len(COLORS)]
-        bar_width = max(2.0, 176 * percentage / 100)
+        bar_width = max(2.0, 142 * percentage / 100)
         body.extend(
             [
-                f'  <circle cx="21" cy="{y - 4}" r="4" fill="{color}"/>',
-                f'  <text x="32" y="{y}" class="language">{html.escape(language)}</text>',
+                f'  <circle cx="23" cy="{y - 4}" r="4" fill="{color}"/>',
+                f'  <text x="34" y="{y}" class="language">{html.escape(language)}</text>',
+                f'  <rect x="194" y="{y - 9}" width="142" height="6" rx="3" fill="#21262d"/>',
+                f'  <rect x="194" y="{y - 9}" width="{bar_width:.1f}" height="6" rx="3" fill="{color}"/>',
                 f'  <text x="390" y="{y}" text-anchor="end" class="label">{percentage:.1f}%</text>',
-                f'  <rect x="204" y="{y - 9}" width="176" height="6" rx="3" fill="#21262d"/>',
-                f'  <rect x="204" y="{y - 9}" width="{bar_width:.1f}" height="6" rx="3" fill="{color}"/>',
             ]
         )
     return svg_document("Top Languages", "\n".join(body))
