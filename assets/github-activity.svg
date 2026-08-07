@@ -20,7 +20,7 @@
   <circle cx="370" cy="22" r="4" fill="#a855f7" opacity=".9"/>
   <text x="22" y="61" class="value">7</text>
   <text x="22" y="79" class="label">Public repositories</text>
-  <text x="216" y="61" class="value">12</text>
+  <text x="216" y="61" class="value">13</text>
   <text x="216" y="79" class="label">Total stars</text>
   <text x="22" y="118" class="value">0</text>
   <text x="22" y="136" class="label">Total forks</text>
