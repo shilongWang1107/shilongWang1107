@@ -18,9 +18,9 @@
   <text x="22" y="27" class="title">GitHub Activity</text>
   <circle cx="384" cy="22" r="4" fill="#22d3ee" opacity=".9"/>
   <circle cx="370" cy="22" r="4" fill="#a855f7" opacity=".9"/>
-  <text x="22" y="61" class="value">7</text>
+  <text x="22" y="61" class="value">8</text>
   <text x="22" y="79" class="label">Public repositories</text>
-  <text x="216" y="61" class="value">13</text>
+  <text x="216" y="61" class="value">14</text>
   <text x="216" y="79" class="label">Total stars</text>
   <text x="22" y="118" class="value">0</text>
   <text x="22" y="136" class="label">Total forks</text>
