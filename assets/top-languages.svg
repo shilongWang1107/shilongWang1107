@@ -19,8 +19,8 @@
   <circle cx="23" cy="47" r="4" fill="#58a6ff"/>
   <text x="34" y="51" class="language">Python</text>
   <rect x="194" y="42" width="142" height="6" rx="3" fill="#21262d"/>
-  <rect x="194" y="42" width="109.0" height="6" rx="3" fill="#58a6ff"/>
-  <text x="390" y="51" text-anchor="end" class="label">76.7%</text>
+  <rect x="194" y="42" width="108.7" height="6" rx="3" fill="#58a6ff"/>
+  <text x="390" y="51" text-anchor="end" class="label">76.6%</text>
   <circle cx="23" cy="69" r="4" fill="#a371f7"/>
   <text x="34" y="73" class="language">TypeScript</text>
   <rect x="194" y="64" width="142" height="6" rx="3" fill="#21262d"/>
@@ -34,8 +34,8 @@
   <circle cx="23" cy="113" r="4" fill="#d29922"/>
   <text x="34" y="117" class="language">Swift</text>
   <rect x="194" y="108" width="142" height="6" rx="3" fill="#21262d"/>
-  <rect x="194" y="108" width="4.5" height="6" rx="3" fill="#d29922"/>
-  <text x="390" y="117" text-anchor="end" class="label">3.2%</text>
+  <rect x="194" y="108" width="4.8" height="6" rx="3" fill="#d29922"/>
+  <text x="390" y="117" text-anchor="end" class="label">3.4%</text>
   <circle cx="23" cy="135" r="4" fill="#f85149"/>
   <text x="34" y="139" class="language">Jupyter Notebook</text>
   <rect x="194" y="130" width="142" height="6" rx="3" fill="#21262d"/>
