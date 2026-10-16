@@ -8,6 +8,13 @@
 - **Research Assistant**, [Lab of Machine Learning and Data Mining](https://cic.tju.edu.cn/kxyj/kytd.htm), [Tianjin University](https://www.tju.edu.cn/), Nov 2025 – May 2026.
 - **Ph.D. Student in Computer Science and Technology**, School of Information, [Yunnan University](https://www.ynu.edu.cn/), Sep 2026 – Present.
 
+## Academic Service
+
+- **Reviewer**, IEEE ICME 2026 (Mar. 2026)
+- **Reviewer**, IEEE ICASSP 2026 (Jan. 2026)
+- **Reviewer**, AIES-SP 2025 (Aug. 2025)
+
+
 ## Research
 
 My research focuses on cross-modal analysis, few-shot class-incremental learning, spatial transcriptomics, and medical image processing. I am interested in learning effective representations across modalities and developing data-efficient learning methods for complex biomedical data.
