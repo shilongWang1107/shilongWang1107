@@ -35,7 +35,7 @@ My research focuses on cross-modal analysis, few-shot class-incremental learning
 
 
 
-# Contact
+## Contact
 
 [![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:wangshilong001107@outlook.com)
 [![X](https://img.shields.io/badge/X-%40shilong_Wang22-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/shilong_Wang22)
