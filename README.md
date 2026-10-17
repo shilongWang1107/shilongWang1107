@@ -8,12 +8,18 @@
 - **Research Assistant**, [Lab of Machine Learning and Data Mining](https://cic.tju.edu.cn/kxyj/kytd.htm), [Tianjin University](https://www.tju.edu.cn/), Nov 2025 – May 2026.
 - **Ph.D. Student in Computer Science and Technology**, School of Information, [Yunnan University](https://www.ynu.edu.cn/), Sep 2026 – Present.
 
-## Academic Service
+# Academic Service
 
-- **Reviewer**, IEEE ICME 2026 (Mar. 2026)
-- **Reviewer**, IEEE ICASSP 2026 (Jan. 2026)
-- **Reviewer**, AIES-SP 2025 (Aug. 2025)
+I actively contribute to the academic community through peer-review activities for international conferences, supporting the dissemination of high-quality research in multimedia, signal processing, and related fields.
 
+### Conference Reviewer
+
+- **IEEE International Conference on Multimedia & Expo (ICME 2026)**  
+*Reviewer | March 2026*  
+- **IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2026)**  
+*Reviewer | January 2026*  
+- **AAAI/ACM Conference on AI, Ethics, and Society – Student Program (AIES-SP 2025)**  
+*Reviewer | August 2025*
 
 ## Research
 
@@ -23,9 +29,11 @@ My research focuses on cross-modal analysis, few-shot class-incremental learning
 
 [Google Scholar](https://scholar.google.com.hk/citations?user=6IzSOykAAAAJ&hl=zh-CN)
 
-- Xin Huang, **Shilong Wang**, Tong Jia, Zhihang Gou, Jingjing Li. Adaptive Prompt-Based Semantic Embedding with Inspire Potential of Implicit Knowledge for Cross-Modal Retrieval. *Proceedings of the AAAI Conference on Artificial Intelligence*, 2025, 39(16), pp. 17485–17493. DOI: [10.1609/aaai.v39i16.33922](https://doi.org/10.1609/aaai.v39i16.33922). [![Citations (Dimensions)](https://citations.njzjz.win/10.1609/aaai.v39i16.33922)](https://badge.dimensions.ai/details/doi/10.1609/aaai.v39i16.33922)
-- Xin Huang, **Shilong Wang**, Tong Jia, Zhimin Yuan, Runsheng Zhang, Jingjing Li. Adaptive Co-Operative Prompting and Uncertainty-Aware Implicit Knowledge Enhancement for Cross-Modal Retrieval. *ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)*, 2026, 22(5), Article 136, pp. 1–26. DOI: [10.1145/3797043](https://doi.org/10.1145/3797043). [![Citations (Dimensions)](https://citations.njzjz.win/10.1145/3797043)](https://badge.dimensions.ai/details/doi/10.1145/3797043)
 - Xin Huang, **Shilong Wang**, Peihao Li, Runsheng Zhang, Zhimin Yuan. Tailored Text Integration and Semantic Differential Enhancement for Few-Shot Class-Incremental Learning. *2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2026, pp. 13272–13276. DOI: [10.1109/ICASSP55912.2026.11464832](https://doi.org/10.1109/ICASSP55912.2026.11464832). [![Citations (Dimensions)](https://citations.njzjz.win/10.1109/ICASSP55912.2026.11464832)](https://badge.dimensions.ai/details/doi/10.1109/ICASSP55912.2026.11464832)
+- Xin Huang, **Shilong Wang**, Tong Jia, Zhimin Yuan, Runsheng Zhang, Jingjing Li. Adaptive Co-Operative Prompting and Uncertainty-Aware Implicit Knowledge Enhancement for Cross-Modal Retrieval. *ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)*, 2026, 22(5), Article 136, pp. 1–26. DOI: [10.1145/3797043](https://doi.org/10.1145/3797043). [![Citations (Dimensions)](https://citations.njzjz.win/10.1145/3797043)](https://badge.dimensions.ai/details/doi/10.1145/3797043)
+- Xin Huang, **Shilong Wang**, Tong Jia, Zhihang Gou, Jingjing Li. Adaptive Prompt-Based Semantic Embedding with Inspire Potential of Implicit Knowledge for Cross-Modal Retrieval. *Proceedings of the AAAI Conference on Artificial Intelligence*, 2025, 39(16), pp. 17485–17493. DOI: [10.1609/aaai.v39i16.33922](https://doi.org/10.1609/aaai.v39i16.33922). [![Citations (Dimensions)](https://citations.njzjz.win/10.1609/aaai.v39i16.33922)](https://badge.dimensions.ai/details/doi/10.1609/aaai.v39i16.33922)
+
+
 
 # Contact
 
