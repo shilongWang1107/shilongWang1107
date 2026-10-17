@@ -1,4 +1,4 @@
-# Shilong Wang
+# I‘m Shilong Wang
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/) [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org/) [![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)](https://www.latex-project.org/) [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
 
@@ -27,4 +27,8 @@ My research focuses on cross-modal analysis, few-shot class-incremental learning
 - Xin Huang, **Shilong Wang**, Tong Jia, Zhimin Yuan, Runsheng Zhang, Jingjing Li. Adaptive Co-Operative Prompting and Uncertainty-Aware Implicit Knowledge Enhancement for Cross-Modal Retrieval. *ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)*, 2026, 22(5), Article 136, pp. 1–26. DOI: [10.1145/3797043](https://doi.org/10.1145/3797043). [![Citations (Dimensions)](https://citations.njzjz.win/10.1145/3797043)](https://badge.dimensions.ai/details/doi/10.1145/3797043)
 - Xin Huang, **Shilong Wang**, Peihao Li, Runsheng Zhang, Zhimin Yuan. Tailored Text Integration and Semantic Differential Enhancement for Few-Shot Class-Incremental Learning. *2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2026, pp. 13272–13276. DOI: [10.1109/ICASSP55912.2026.11464832](https://doi.org/10.1109/ICASSP55912.2026.11464832). [![Citations (Dimensions)](https://citations.njzjz.win/10.1109/ICASSP55912.2026.11464832)](https://badge.dimensions.ai/details/doi/10.1109/ICASSP55912.2026.11464832)
 
+# Contact
 
+[![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:wangshilong001107@outlook.com)
+[![X](https://img.shields.io/badge/X-%40shilong_Wang22-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/shilong_Wang22)
+![WeChat](https://img.shields.io/badge/WeChat-wsl--24-07C160?style=for-the-badge&logo=wechat&logoColor=white)
