@@ -14,12 +14,9 @@ I actively contribute to the academic community through peer-review activities f
 
 ### Conference Reviewer
 
-- **IEEE International Conference on Multimedia & Expo (ICME 2026)**  
-*Reviewer | March 2026*  
-- **IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2026)**  
-*Reviewer | January 2026*  
-- **AAAI/ACM Conference on AI, Ethics, and Society – Student Program (AIES-SP 2025)**  
-*Reviewer | August 2025*
+- **ICASSP** — IEEE International Conference on Acoustics, Speech and Signal Processing
+- **ICME** — IEEE International Conference on Multimedia & Expo
+- **AIES Student Program** — AAAI/ACM Conference on AI, Ethics, and Society
 
 # Research
 
