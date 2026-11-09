@@ -26,15 +26,53 @@ My research focuses on cross-modal analysis, few-shot class-incremental learning
 
 [Google Scholar](https://scholar.google.com.hk/citations?user=6IzSOykAAAAJ&hl=zh-CN)
 
+## Cross-Modal Retrieval
 
-- <img src="./assets/new_blink.gif" width="40" alt="NEW!"> Xin Huang, **Shilong Wang**, Peihao Li, Runsheng Zhang, Zhimin Yuan. Tailored Text Integration and Semantic Differential Enhancement for Few-Shot Class-Incremental Learning. *2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 2026, pp. 13272–13276. DOI: [10.1109/ICASSP55912.2026.11464832](https://doi.org/10.1109/ICASSP55912.2026.11464832). [![Google Scholar Citations](https://img.shields.io/badge/Google%20Scholar-1%20citations-blue)](https://scholar.google.com/scholar?q=%22Tailored+Text+Integration+and+Semantic+Differential+Enhancement+for+Few-Shot+Class-Incremental+Learning%22)
+<table>
+<tr>
+<td width="36%" align="center" valign="middle">
+<a href="https://doi.org/10.1609/aaai.v39i16.33922"><img src="https://raw.githubusercontent.com/shilongWang1107/shilongWang1107.github.io/main/images/AAAI.png" width="320" alt="AAAI method overview"></a>
+<br><strong>AAAI 2025</strong>
+</td>
+<td width="64%" valign="middle">
+<p><a href="https://doi.org/10.1609/aaai.v39i16.33922"><strong>Adaptive Prompt-Based Semantic Embedding with Inspire Potential of Implicit Knowledge for Cross-Modal Retrieval</strong></a></p>
+<p>Xin Huang, <strong>Shilong Wang</strong>, Tong Jia, Zhihang Gou, Jingjing Li.</p>
+<p>APSE-IPIK addresses inter-modal information asymmetry and intra-modal distribution diversity by injecting multi-perspective implicit knowledge from large multimodal models and retrieving instance-relevant prompts from an adaptive prompt pool.</p>
+<p><a href="https://doi.org/10.1609/aaai.v39i16.33922">Paper</a> · <a href="https://scholar.google.com/scholar?q=%22Adaptive+Prompt-Based+Semantic+Embedding+with+Inspire+Potential+of+Implicit+Knowledge+for+Cross-Modal+Retrieval%22"><img src="https://img.shields.io/badge/Google%20Scholar-11%20citations-blue" alt="Google Scholar Citations"></a></p>
+</td>
+</tr>
+<tr>
+<td width="36%" align="center" valign="middle">
+<a href="https://doi.org/10.1145/3797043"><img src="https://raw.githubusercontent.com/shilongWang1107/shilongWang1107.github.io/main/images/TOMM.png" width="320" alt="TOMM method overview"></a>
+<br><strong>ACM TOMM 2026</strong>
+</td>
+<td width="64%" valign="middle">
+<p><img src="./assets/new_blink.gif" width="40" alt="NEW!"> <a href="https://doi.org/10.1145/3797043"><strong>Adaptive Co-Operative Prompting and Uncertainty-Aware Implicit Knowledge Enhancement for Cross-Modal Retrieval</strong></a></p>
+<p>Xin Huang, <strong>Shilong Wang</strong>, Tong Jia, Zhimin Yuan, Runsheng Zhang, Jingjing Li.</p>
+<p>ACKE extends APSE-IPIK with uncertainty-aware implicit knowledge enhancement and adaptive co-operative prompting. It uses Dempster–Shafer theory to quantify semantic reliability and supports collaborative guidance across modalities.</p>
+<p><a href="https://doi.org/10.1145/3797043">Paper</a> · <a href="https://scholar.google.com/scholar?q=%22Adaptive+Co-Operative+Prompting+and+Uncertainty-Aware+Implicit+Knowledge+Enhancement+for+Cross-Modal+Retrieval%22"><img src="https://img.shields.io/badge/Google%20Scholar-0%20citations-blue" alt="Google Scholar Citations"></a></p>
+</td>
+</tr>
+</table>
 
-- <img src="./assets/new_blink.gif" width="40" alt="NEW!"> Xin Huang, **Shilong Wang**, Tong Jia, Zhimin Yuan, Runsheng Zhang, Jingjing Li. Adaptive Co-Operative Prompting and Uncertainty-Aware Implicit Knowledge Enhancement for Cross-Modal Retrieval. *ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)*, 2026, 22(5), Article 136, pp. 1–26. DOI: [10.1145/3797043](https://doi.org/10.1145/3797043). [![Google Scholar Citations](https://img.shields.io/badge/Google%20Scholar-0%20citations-blue)](https://scholar.google.com/scholar?q=%22Adaptive+Co-Operative+Prompting+and+Uncertainty-Aware+Implicit+Knowledge+Enhancement+for+Cross-Modal+Retrieval%22)
+## Few-Shot Class-Incremental Learning
 
-- Xin Huang, **Shilong Wang**, Tong Jia, Zhihang Gou, Jingjing Li. Adaptive Prompt-Based Semantic Embedding with Inspire Potential of Implicit Knowledge for Cross-Modal Retrieval. *Proceedings of the AAAI Conference on Artificial Intelligence*, 2025, 39(16), pp. 17485–17493. DOI: [10.1609/aaai.v39i16.33922](https://doi.org/10.1609/aaai.v39i16.33922). [![Google Scholar Citations](https://img.shields.io/badge/Google%20Scholar-11%20citations-blue)](https://scholar.google.com/scholar?q=%22Adaptive+Prompt-Based+Semantic+Embedding+with+Inspire+Potential+of+Implicit+Knowledge+for+Cross-Modal+Retrieval%22)
+<table>
+<tr>
+<td width="36%" align="center" valign="middle">
+<a href="https://doi.org/10.1109/ICASSP55912.2026.11464832"><img src="https://raw.githubusercontent.com/shilongWang1107/shilongWang1107.github.io/main/images/ICASSP.png" width="320" alt="ICASSP method overview"></a>
+<br><strong>ICASSP 2026</strong>
+</td>
+<td width="64%" valign="middle">
+<p><img src="./assets/new_blink.gif" width="40" alt="NEW!"> <a href="https://doi.org/10.1109/ICASSP55912.2026.11464832"><strong>Tailored Text Integration and Semantic Differential Enhancement for Few-Shot Class-Incremental Learning</strong></a></p>
+<p>Xin Huang, <strong>Shilong Wang</strong>, Peihao Li, Runsheng Zhang, Zhimin Yuan.</p>
+<p>Discriminative Semantic Consolidation (DSC) jointly addresses catastrophic forgetting and few-shot overfitting through tailored text-guided alignment, semantic differential augmentation, and language-enhanced prototype calibration.</p>
+<p><a href="https://doi.org/10.1109/ICASSP55912.2026.11464832">Paper</a> · <a href="https://scholar.google.com/scholar?q=%22Tailored+Text+Integration+and+Semantic+Differential+Enhancement+for+Few-Shot+Class-Incremental+Learning%22"><img src="https://img.shields.io/badge/Google%20Scholar-1%20citations-blue" alt="Google Scholar Citations"></a></p>
+</td>
+</tr>
+</table>
 
-
-
+[Full List of Publications](https://www.researchgate.net/profile/Shilong-Wang-24/research)
 
 ## Contact
 
